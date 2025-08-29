@@ -48,6 +48,8 @@ body {
   border-radius: 0;
   background: white;
   flex-wrap: wrap;
+  margin: auto; 
+  align-self: center;
 }
 
 .container {
@@ -303,6 +305,7 @@ button {
   .main-container {
     flex-direction: column;
     max-width: 100%;
+    margin: auto;
   }
 
   .container {
@@ -328,6 +331,10 @@ button {
 }
 
 @media (max-width: 480px) {
+  .main-container {
+    margin: auto;
+  }
+
   .header {
     font-size: 14px;
     padding: 10px;
@@ -336,6 +343,11 @@ button {
 
   .pros {
     padding: 15px;
+    align-self: center;
+  }
+
+  .depth {
+    align-self: center;
   }
 
   .pros-item,
@@ -364,5 +376,5 @@ button {
     margin: 15px auto;
     width: 200px;
   }
-  
+
 }
